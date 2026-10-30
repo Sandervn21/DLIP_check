@@ -2,7 +2,7 @@ import numpy
 #hi
 
 # Follow the tasks below to practice basic Python concepts.
-# Write your code in between the dashed lines.
+# Write your codjhkje in between the dashed lines.
 # Don't import additional packages. Numpy suffices.
 
 # Task 1: 
