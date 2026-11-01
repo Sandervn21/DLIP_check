@@ -30,7 +30,7 @@ def step(x):
 def ReLu(x, cutoff=0):
     return np.maximum(x, cutoff)
 # -----------------------------------------------
-
+#this should work now
 
 # Task 3:
 # Instructions:
