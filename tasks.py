@@ -1,9 +1,5 @@
 import numpy as np
 
-python -m pip install numpy pytest
-python -m pytest tests/grade_task1.py tests/grade_task2.py tests/grade_task3.py
-
-
 #hi
 # Follow the tasks below to practice basic Python concepts.
 # Write your code in between the dashed lines.
@@ -17,12 +13,9 @@ python -m pytest tests/grade_task1.py tests/grade_task2.py tests/grade_task3.py
 
 # Your code here:
 # -----------------------------------------------
-
 def step(x):
-    return np.where(x > 0, 1, -1)
-
-
-
+     return np.where(x > 0, 1, -1)
+     
 # -----------------------------------------------
 
 
@@ -37,8 +30,6 @@ def step(x):
 # -----------------------------------------------
 def ReLu(x, cutoff=0):
     return np.maximum(x, cutoff)
-
-
 # -----------------------------------------------
 
 
@@ -55,7 +46,5 @@ def ReLu(x, cutoff=0):
 def neural_net_layer(n, p):
     # Perform matrix multip
     result = np.dot(n,p)
-    return(result)
-
-
+    return ReLU(result)
 # ------------------------------------------
