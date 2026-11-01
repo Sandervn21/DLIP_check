@@ -1,8 +1,9 @@
-import numpy
+import numpy as np
+
 #hi
 
 # Follow the tasks below to practice basic Python concepts.
-# Write your codjhkje in between the dashed lines.
+# Write your code in between the dashed lines.
 # Don't import additional packages. Numpy suffices.
 
 # Task 1: 
@@ -14,7 +15,8 @@ import numpy
 # Your code here:
 # -----------------------------------------------
 
-def step
+def step(x):
+    return np.where(x > 0, 1, -1).item()
 
 
 # -----------------------------------------------
@@ -29,7 +31,8 @@ def step
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
+def ReLu(x, cutoff=0):
+    return np.maximum(x, cutoff)
 
 
 # -----------------------------------------------
@@ -45,7 +48,10 @@ def ReLu
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer
+def neural_net_layer(n, p):
+    # Perform matrix multip
+    result = np.dot(n,P)
+    return(result)
 
 
 # ------------------------------------------
