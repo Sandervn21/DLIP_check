@@ -1,5 +1,7 @@
 import numpy as np
 
+
+
 #hi
 
 # Follow the tasks below to practice basic Python concepts.
@@ -17,6 +19,7 @@ import numpy as np
 
 def step(x):
     return np.where(x > 0, 1, -1).item()
+
 
 
 # -----------------------------------------------
