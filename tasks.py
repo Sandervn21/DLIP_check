@@ -41,7 +41,7 @@ def ReLu(x, cutoff=0):
 
 # Your code here:
 # -----------------------------------------------
-def neural_net_layer(X, weights):
-    result = X @ weights
-    return ReLU(result)
+def neural_net_layer(inputs, weights):
+    result = inputs @ weights
+    return ReLu(result)
 # ------------------------------------------
