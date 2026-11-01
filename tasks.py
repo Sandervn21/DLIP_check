@@ -41,8 +41,7 @@ def ReLu(x, cutoff=0):
 
 # Your code here:
 # -----------------------------------------------
-def neural_net_layer(n, p):
-    # Perform matrix multip
-    result = np.dot(n,p)
-    return ReLu(result)
+def neural_net_layer(X, weights):
+    result = X @ weights
+    return ReLU(result)
 # ------------------------------------------
